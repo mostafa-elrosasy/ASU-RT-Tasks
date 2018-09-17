@@ -32,7 +32,7 @@ input, textarea{
 /*HEADER*/
 header{
     background-attachment: fixed;
-    background-image: url(/img/background1.jpg);
+    background-image: url(../img/background1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 700px;
@@ -76,6 +76,9 @@ header p{
 }
 header .card-header{
     background: rgb(230, 227, 227);
+}
+#wide-button{
+    border:0 !important;
 }
 /*/////////////////////*/
 /*SOCIAL*/
@@ -156,7 +159,7 @@ ul{
 /*/////////////////////*/
 /*CUSTOMERS*/
 #stylish{
-    background-image: url(/img/background2.jpg);
+    background-image: url(../img/background2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 400px;
