@@ -1,0 +1,135 @@
+/*basic*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:70%;
+    margin-left:15%;
+}
+.grid{
+    display: grid;
+    grid-template-columns:  1fr 2fr;
+    margin-left:0px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    margin-left:0px;
+}
+.col{
+    margin-left:20%;
+}
+.col section{
+    margin-top:15%;
+}
+section{
+    margin-top:10%;
+}
+img{
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+}
+#surname{
+    font-weight: 700;
+}
+#first-name{
+    font-weight: 200;
+}
+/*headings*/
+h4{
+    weight:400;
+    color:rgb(78, 91, 216);
+    font-size: 120%;
+}
+h3{
+    letter-spacing: 1px;
+    text-align: center;
+}
+/*title*/
+h2{
+    weight:400;
+    font-size: 140%;
+    color:rgb(78, 91, 216);
+    float:left;
+    margin-left:2%;
+    letter-spacing: 1px;
+    width:40%;
+}
+.line{
+    display: inline-block;
+    height:5px;
+    background-color: rgb(78, 91, 216);
+    width:40%;
+}
+.col .line{
+    width:50%;
+}
+.col h2{
+    width:30%;
+}
+i{
+    float:left;
+    color:rgb(78,91,216);
+    margin-top:-15px;
+    font-size: 60px;
+    width:10%;
+    margin-right: 6%;
+}
+.title{
+    margin-bottom: 8%;
+    text-align: center;
+}
+/*contact*/
+.contact p{
+    margin-top:10%;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.contact-titles h4{
+    margin-top:20%;
+}
+/*skills*/
+.skills p{
+    text-align: center;
+    font-size: 200%;
+    color:rgb(78, 91, 216);
+}
+.skills p span{
+    color:#808080;
+}
+/*school projects*/
+.school-projects h4{
+    color: #000;
+    margin-top: 5%;
+}
+
+/*software*/
+.grid2 p{
+    margin-top:5%;
+}
+
+.container {
+    width: 80%; 
+    background-color: #808080; 
+    height:20px;
+}
+
+.skill {
+    text-align: right;
+    padding: 10px;
+    background-color: rgb(78, 91, 216);
+    height:20px;
+}
+
+@media only screen and (max-width:1200px){
+    body{
+        width:96%;
+        margin:2%;
+    }
+
+}
